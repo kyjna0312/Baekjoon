@@ -20,5 +20,4 @@ for i in range(caseNum) :
     resultList.append(result)
 
 for i in resultList :
-    print(i,"%", sep="")
-
+    print("{:.3f}%".format(i))
